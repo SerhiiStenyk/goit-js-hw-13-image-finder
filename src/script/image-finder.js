@@ -51,7 +51,7 @@ function renderImages(hits) {
 function clearGallery() {
     refs.gallaryContainer.innerHTML = '';
 }
-const observer = new IntersectionObserver(onEntry, { rootMargin: '300px' });
+const observer = new IntersectionObserver(onEntry, { rootMargin: '50px' });
 function onEntry(entries) {
     entries.forEach(entry => {
         if (entry.isIntersecting && imageApiService.query !== '') {
