@@ -1,1 +1,3 @@
-# goit-js-hw-13-image-finder
+Image-finder. 
+Personal project.
+Technologies: HTML/CSS, JavaScript, ReactJS.
